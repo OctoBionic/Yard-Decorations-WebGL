@@ -139,9 +139,9 @@
         const buildUrl = "Build";
         const loaderUrl = buildUrl + "/Yard Decorations WebGL.loader.js";
         const config = {
-            dataUrl: buildUrl + "/Yard Decorations WebGL.data",
-            frameworkUrl: buildUrl + "/Yard Decorations WebGL.framework.js",
-            codeUrl: buildUrl + "/Yard Decorations WebGL.wasm",
+            dataUrl: buildUrl + "/ebba0b89d86b2c583132caf47e9d9559.data.br",
+            frameworkUrl: buildUrl + "/577e9cb5021f91fac497c40794851794.js.br",
+            codeUrl: buildUrl + "/50d46e56d60a6bd5a018eac748e63fce.wasm.br",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "MeanTrick",
             productName: "YardDecorations",
@@ -150,8 +150,8 @@
             cacheControl: function (url) {
             // typically includes: .data, .bundle, .zpt
             if (url.match(/\.data/) || url.match(/\.bundle/) || url.match(/\.zpt/)) {
-             return "must-revalidate";
-            }
+             return "immutable";
+}
    
             if (url.match(/\.mp4/) || url.match(/\.custom/) || url.match(/\.zbin/)) {
                 return "immutable";
