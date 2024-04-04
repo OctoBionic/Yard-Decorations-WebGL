@@ -1,9 +1,9 @@
 const cacheName = "MeanTrick-YardDecorations-.1";
 const contentToCache = [
     "Build/Yard Decorations WebGL.loader.js",
-    "Build/89f144bec95feafccb7b50251aa57e8d.js",
-    "Build/fbd10611fe7beab56a57024f3c838d43.data",
-    "Build/db8680627a931413d33d693fbf3e1123.wasm",
+    "Build/Yard Decorations WebGL.framework.js.gz",
+    "Build/Yard Decorations WebGL.data.gz",
+    "Build/Yard Decorations WebGL.wasm.gz",
     "TemplateData/style.css"
 
 ];
